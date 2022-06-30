@@ -43,7 +43,7 @@ Suppose you are assigned a ticket that says this:
 
 > Background:
 >
-> Two problems have been identified with [cli.py](./cli.py) that need
+> Two problems have been identified with [cli.py](cli.py) that need
 > remediation:
 >
 > - The variable named "url" is vague and should be more descriptive.
@@ -56,7 +56,7 @@ Suppose you are assigned a ticket that says this:
 > - Add a trailing `/` to the endpoint URL where appropriate.
 
 The engineer who wrote this ticket already took the time to understand this
-code and the problems with it, but remediation work in production has to be 
+code and the problems with it, but remediation work in production has to be
 done during a maintenance window. Therefore, they've written this ticket.
 
 But you are coming into all this fresh. You don't have context, you don't
@@ -106,7 +106,7 @@ requests like this:
 </details>
 
 That's more explicit! But... where exactly should all these snippets of code go
-in [cli.py](./cli.py)? Are they meant to be _added_ somewhere, or should you
+in [cli.py](cli.py)? Are they meant to be _added_ somewhere, or should you
 _replace_ something in cli.py with what's in the change request? So you find
 yourself scrolling around in code at 8:00 PM on a Thursday trying to make sense
 of it anyway.
@@ -178,7 +178,7 @@ $
 
 If you are requesting changes, you should create a patch file to attach to the
 Jira ticket with your change request. For example, here's how I did it with
-[cli.py](./cli.py) for this demonstration:
+[cli.py](cli.py) for this demonstration:
 
 ```console
 $ # Make a backup of the file you want to change.
