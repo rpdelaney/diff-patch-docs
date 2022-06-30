@@ -16,7 +16,7 @@
 ## Executive summary
 
 1. Sometimes we need to request that someone else edit code, configuration
-   files, or other text files.
+   files, or other text files on production hosts.
 1. Ensuring that only exactly the requested changes are made is hard for
    humans: both the requester and the engineer performing the change.
 1. However, it's easy for computers.
