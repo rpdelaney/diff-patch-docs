@@ -275,8 +275,7 @@ $
 #### Making the request
 
 Now that you have your patch, you can attach `cli_diff.patch` to the ticket
-requesting the change. Do not copy the contents of the file into the ticket
-description.
+requesting the change. Do not copy the patch into the ticket description.
 
 ### As the maintainer
 
