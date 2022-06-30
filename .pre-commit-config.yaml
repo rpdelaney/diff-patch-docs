@@ -1,0 +1,27 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: detect-private-key
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.11
+    hooks:
+      - id: mdformat
+        additional_dependencies:
+          - mdformat-gfm
+          - mdformat-toc
+
+  - repo: local
+    hooks:
+      - id: no-todo
+        name: TODOs in source control are not allowed
+        entry: '\bTODO\b|\btodo\b'
+        stages: [commit]
+        exclude: '.pre-commit.config.yaml'
+        language: pygrep
