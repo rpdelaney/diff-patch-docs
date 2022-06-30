@@ -177,7 +177,7 @@ $
 #### Create a patch file
 
 If you are requesting changes, you should create a patch file to attach to the
-Jira ticket with your change request. For example, here's how I did it with
+ticket with your change request. For example, here's how I did it with
 [cli.py](/cli.py) for this demonstration:
 
 ```console
