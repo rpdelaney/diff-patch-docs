@@ -59,11 +59,11 @@ The engineer who wrote this ticket already took the time to understand this
 code and the problems with it, but remediation work in production has to be
 done during a maintenance window. Therefore, they've written this ticket.
 
-But you are coming into all this fresh. You don't have context, you don't
-understand the code you're looking at, and worse, you're in an after-hours
-maintenance window with the clock ticking -- everyone is waiting for you to
-figure this out so that they can go home! Now you have to do all that discovery
-work _again_ and under pressure.
+Now you have to make the change, but you are coming into all this fresh. You 
+don't have context, you don't understand the code you're looking at, and worse, 
+you're in an after-hours maintenance window with the clock ticking -- everyone 
+is waiting for you to figure this out so that they can go home! Now you have to 
+do all that discovery work _again_ and under pressure.
 
 Not good!
 
